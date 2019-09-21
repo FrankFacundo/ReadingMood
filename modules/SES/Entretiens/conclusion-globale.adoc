@@ -1,0 +1,59 @@
+=== Contexte dans lequel s’insère Reading Mood
+
+Notre groupe PACT partage le *plaisir de la lecture*. C’est en ce sens que notre projet s’est rapidement tourné vers elle, d’autant plus qu’il s’intègre parfaitement au thème de cette année : Arts et Sciences. Ainsi la majorité d’entre nous fut-elle pendant un moment des lecteurs réguliers, avant d’avoir été tous soumis à un emploi du temps plus chargé, limitant fortement nos temps de lecture. Comment se fait-il que nous ayons autant de mal à replonger dans les univers que proposent la littérature alors que nous disposons chacun de plus de temps libre ? +
+*Sommes-nous à la fois victimes et acteurs d’une évolution du rapport à la lecture ?* +
+En ce sens, l’étude proposée par Olivier Donnat dans sa Dynamique générationnelle et pesanteur sociale permet quelques éclaircissements.
+Nous avons par ailleurs fait des constats notables quant à ce rapport entretenu avec la lecture aujourd’hui, constats motivés par des *grilles d’entretiens* que nous avons menés,
+nous permettant finalement de mieux discerner le *public cible* de notre projet Reading Mood. +
+
+Ces dernières décennies, le *format de la lecture a énormément évolué*. Qu’il soit papier ou numérique, son volume a notablement diminué. Ainsi lisons-nous bien plus, mais des volumes beaucoup plus courts.
+De fait, nous sommes désormais assommés de publicités, d’articles en tout genre qui pullulent sur nos fils d’actualité, de chats, ou encore de thread sur lesquels nous reviendrons.
+Nous sommes constamment confrontés à du texte. +
+Cette « *économie de l’attention* » est-elle responsable d’une perte d’attention du lecteur le rendant aujourd’hui inapte à plonger dans l’univers de longs romans ?
+Manquerions-nous d’attention ? Le phénomène du thread, histoire très courte racontée sur Twitter, sous forme d’une dizaine voire vingtaine de tweet dont le nombre de caractères est limité à 140, semble aller dans ce sens. +
+En effet, ce nouveau format tient en haleine le lecteur qui doit passer au tweet suivant à chaque fois et *mobiliser sa concentration sur des instants très brefs*.  +
+Cette idée rejoint le fait que les plus jeunes semblent préférer nettement les nouvelles aux romans (question posée lors des grilles d’entretien), et expliquerait l’effervescence chez les plus jeunes pour les lectures dites graphiques (BD, Mangas, etc.).
+Par ailleurs, *ce rapport à la lecture semble beaucoup moins linéaire* et plus déstructuré (nous lisons quelques pages dans le métro, entrecoupées de changements de ligne ou encore nous survolons les articles de notre fil d’actualité). +
+
+D’après Catherine Morhangue, responsable au CRDN de Télécom Paristech, *il ne s’agit pas d’un problème d’attention mais plutôt de sollicitation*. Elle travaille d’ailleurs en l’aménagement du CRDN de Saclay, dans lequel se délimitent des « zones détente »,
+ « zones de travail » ou encore des zones d’ouvrages. Celles-ci sont aménagées de hamacs, d’étagères sinueuses, de canapés aux parois acoustiques, des fauteuils à l’intérieur même des rayonnages, au milieu des ouvrages. +
+ On voit que *Catherine Morhangue travaille donc à l’instauration de toute une atmosphère, une bulle, isolée de l’environnement extérieure pour mettre le lecteur dans les meilleures dispositions pour s’immerger dans l’univers de son livre*.
+Ceci vient conforter le fait qu’une partie des lecteurs dans le métro qu’on a interrogés ne peuvent lire que s’ils écoutent de la musique en fond. On a remarqué que cette pratique d’écouter de la musique pendant la lecture ne concernait quasiment que les jeunes générations.
+Il existe d’ailleurs des playlists spécifiques pour la lecture sur les grandes plateformes de musique (Spotify ou Youtube). +
+
+== Ce que nous ont appris ces grilles d’entretiens
+
+Les questions posées lors de ces entretiens sont disponibles en annexe. Elles nous ont permis d’affiner nettement notre public cible et nous ont amené à déceler plusieurs types de lecteurs.
+
+* Le premier est un *lecteur moyen, qui lit la plupart du temps dans le métro*. Il arrive plus ou moins bien à faire abstraction de l’environnement extérieur pour se plonger dans l’univers de son livre mais il a une lecture assez saccadée, soumise à son trajet. De ce rapport non linéaire peut découler une immersion assez superficielle. Il entre assez bien dans la case des dits « métro boulot dodo ».
+
+* Le second est un *lecteur plutôt âgé et expérimenté*, qui lit de manière très « *traditionnelle*». Il lit quotidiennement chez lui, dans sa chambre, souvent avant de dormir et se laisse un temps imparti, toujours le même (qui tourne autour de la demie heure). Il est plutôt réticent à l’idée d’éveiller d’autres sens et n’en ressent pas le besoin. C’est donc une cible que nous écartons.
+
+* Le troisième lit de manière beaucoup plus *occasionnelle*, en période de vacances par exemple. Ils peuvent facilement lire sur de grosses plages horaires s’ils sont totalement immergés dans l’univers livresque et ne s’imposent pas un temps imparti de lecture.
+
+* Le dernier est un *nouveau lecteur, souvent très jeune* (classe de seconde par exemple), qui se voit obliger à *l’école* à passer de façon plus au moins brutale aux livres pour enfants à la littérature classique. De fait, les entretiens ont révélé un *manque d’attrait* chez les jeunes pour la lecture, qui regrettent parfois que les livres manquent de visibilité et d’attirance.
+
+Reading Mood permettrait déjà de lier l’univers de la technologie à cette image vieillotte associée par quelques jeunes à la lecture. Un partenariat avec des écoles serait envisageable si le produit était amené à être commercialisé. Par son originalité, il pourrait attirer les plus curieux. Enfin, pour les plus inexpérimentés qui perdraient facilement le fil de leur lecture, il pourrait les aider à s’y immerger plus facilement par l’éveil de ses sens.
+
+
+== Les personnes interrogées : détails
+
+Nous avons réalisé quinze entretiens auprès de personnes ayant une pratique régulière de la lecture. +
+Pour trois d'entre elles, la lecture est au coeur de leur activité professionnelle : 2 professeurs de lettres et 1 personne responsable du CRDN. +
+Ensuite nous avons interrogé des personnes de notre entourage en essayant de diversifier les positions dans le cycle de vie : 1 personne retraitée, 4 adultes actifs (entre 40 et 60 ans) recrutés parmi nos parents qui lisent...
+ et 7 étudiants (3 en grandes écoles, 2 à la FAC, 1 en BTS et 1 au lycée). +
+Nous avons cherché à diversifier notre échantillon pour mieux identifier les profils susceptibles d'être intéressés par notre projet. +
+Nous sommes cependant conscient que notre approche est limité quant à la quantité de personnes interrogées. Il aurait éventuellement fallu
+interroger plus de personnes à la retraite ou adulte.
+
+== En conclusion, quel est notre public cible ?
+
+* Personne ayant un rythme de vie : ”Métro-boulot-dodo”, soumis à un manque de temps pour lire. Reading Mood permettrait (sans la boîte si utilisation de l’application dans le métro) une immersion et leur donnerait une occasion de lire. 
+* Toute personne curieuse qui lit déjà mais qui voudrait ressentir de nouvelles sensations de lecture.
+* Personne assez jeune ou inexpérimentée. Le but serait de rendre attractive la lecture qui peut paraître difficile afin de faciliter cette période de transition. 
+* Personnes qui ont arrêté de lire, manière de reprendre. 
+
+== Qui n’est pas notre cible ?
+
+* Ceux qui lisent avec une habitude très précise dite lecture traditionnelle, lecture associée à un sens : la vue
+* Technophobes

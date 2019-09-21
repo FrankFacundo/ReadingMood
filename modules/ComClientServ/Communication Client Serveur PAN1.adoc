@@ -1,0 +1,92 @@
+Communication client serveur: PAN1
+------------------------~~~~~~~~~~
+Binôme: Frank FACUNDO et Khaled GRIRA
+
+
+
+Entre application et _Magic Box_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+L'application et le boitier seront connectés sans fil. 
+
+Demandes/réponses : de l'appli vers le boîtier
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Play:
+^^^^
+|=====
+|=> Play 
+|<= Ok
+|=> Envoie musique
+|<= Ok  
+|=====
+
+Stop:
+^^^^^
+|=====
+|=> Demande stop
+|<= Ok
+|=====
+
+Pause: 
+^^^^^^
+|=====
+|=> Demande pause
+|<= Ok
+|=====
+
+Connexion:
+^^^^^^^^^^
+|===
+|=> Demande connexion
+|<= Ok/Non
+|===
+
+
+Erreurs: Du boitier vers l'application 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Batterie:
+^^^^^^^^^
+|===
+|=> Batterie faible
+|<= Ok
+|===
+
+Echantillon:
+^^^^^^^^^^^^
+|====
+|=> Echantillon ne fonction pas
+|<= Ok
+|====
+
+
+Entre application et base de données
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Demandes/réponses de l'application vers la base de données:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Recherche titre:
+^^^^^^^^^^^^^^^^
+|====
+|=> Recherche _Titre_: String
+|<= Ensemble de la fiche description lien de téléchargement etc : String 
+|====
+
+Recherche genre:
+^^^^^^^^^^^^^^^^
+|===
+|=> Recherche genre:
+|<= Sous-table caractérisé par le Genre: genre de la table
+|===
+
+
+
+
+
+
+
+
+
+
+
+

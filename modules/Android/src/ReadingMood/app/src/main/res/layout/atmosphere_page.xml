@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pages.ListAtmosphere"
+    android:orientation="vertical"
+    >
+
+    <include  android:id="@+id/my_toolbar_atmosphere"
+        layout="@layout/tool_bar_atmosphere">
+
+    </include>
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appBarBackground"
+        app:tabMode="fixed"
+        app:tabIndicatorColor="#FFFFFF"
+        app:tabGravity="fill"
+        android:id="@+id/tab_layout_id"
+        app:tabTextColor="#FFFFFF"
+
+        >
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view_pager_atmosphere_id"
+        >
+
+    </android.support.v4.view.ViewPager>
+
+
+
+</LinearLayout>

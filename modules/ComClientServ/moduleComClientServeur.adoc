@@ -1,0 +1,15 @@
+=== Module Communication client serveur
+
+== Descriptions
+Ce module est associé à Grira Khaled et Facundo Frank. Cette équipe a pour but de mettre en place la
+communication client-serveur. Il y aura 2 parties, la première une communication entre l’application et
+la Magic Box qui passera par WiFi en réseau local et la deuxième partie c’est une communication entre
+l’application et la base de données des ambiances qui passera par internet.
+
+== Avancement
+Discussion avec Tarik Graba pour imaginer un premier style de diffuseur d’odeur. Recherche d’huiles
+essentielles utilisables pour la création d’ambiances.
+
+== Bibliographie spécifique
+https://www.aroma-zone.com/info/dossier-thematique/fabriquer-son-parfum https://fr.coursera.org/learn/raspberr
+pi-platform

@@ -1,0 +1,131 @@
+=== Liste des guides à regarder pour notre application
+
+
+== Activity
+* Cela résume la mise en place de l'application dans le téléphone. Les méthodes utilisées sont alors onCreate(), onStart(), onResume(), onPause(), onStop(), onDestroy(). +
+Les fonctionnalités de notre application devront être disponibles dans le onResume() où il faudra garder la lecture actuelle avec la programmation des ambiances
+ lors de l'appel de onPause() où onDestroy() et onStop(). +
+  * La méthode onPause() devra mettre pause sur la lecture du texte et sur les diffusions d'ambiances,
+  tout comme la méthode onStop() (qui correspond par exemple à l'apparition d'une page recouvrant notre application). Un appui sur un le bouton retour du
+  téléphone aura différents effets : un retour en arrière vers la page principale si l'utilisateur se trouvait en lecture, avec la sauvegarde de sa session
+   (c'est-à-dire des ambiances sonores, olfactives et de la page courante). +
+    * S'il se trouve dans les autres fonctionnalités de l'application, cela le renverra juste vers la page précédente.
+Pour ce faire, nous pourrons regarder les rubriques *The activity lifecycle, Activity state changes, Tasks and back stack*. +
+* Nous devrons aussi établir une connexion wi-fi avec la box. Pour ce faire, nous devrons communiquer avec l'appareil afin de reconnaître si la connexion est établie
+(cela sera disponible dans la rubrique Réglages). Pour cela, nous devrons avoir recours à *Parcelables en bundles* et *Interact with other apps*.
+Afin d'accéder aux livres téléchargés, nous aurons besoin de *Loaders*. +
+* Afin de s'adapter au téléphone et à l'affichage des dernières applications ouvertes, nous aurons besoin du guide sur *Recents screen*. +
+* Si le temps nous le permet, nous pourrons utiliser des *App shortcuts* avec comme fonctionnalités "Reprendre la lecture", "Ma biblio", "Ma librairie", "Ambiances".
+
+== Architecture Components
+* Cela se résume par la mise en page de notre application. Nous pourrons alors utiliser *Guide to app architecture* pour comprendre le comportement global que doit avoir chacune
+ des composante par rapport aux autres. +
+* Afin de faciliter le maintien et assurer la performance de notre application, nous pourrons utiliser le *Data Binding Librairy* (afin d'éviter les appels au
+programme Java pour avoir accès à un TextView par exemple). +
+* Pour l'élaboration de notre application, nous devrons définir l'architecture de navigation grâce à *Navigation*. +
+Afin d'exposer les ambiances ou les livres disponibles, nous pourrons gérer le nombre de vues par page, afin d'afficher seulement un petit nombre de vues, en 
+utilisant *Paging library overview*. +
+* Afin de gérer le changement de mode passant de vertical à paysage (qui sera très utile lors de la lecture), nous pourrons utiliser *ViewModel Overview*. +
+Afin de gérer la programmation des ambiances avec le "mode manuel", il semble approprié d'utiliser *Schedule tasks with WorkManager*. +
+* Afin de garder enregistrer la dernière session, nous pourrons utiliser *Saving UI States*.
+
+== Intents and Intent Filters
+* Afin de gérer un téléchargement qui se ferait en arrière-plan, nous pourrons utiliser des *explicit intents*. +
+De plus, afin de jouer des musiques, il nous faudra utiliser des *ACTION_VIEW*. +
+* Pour effectuer une recherche sur les livres disponibles ou sur la rubrique des ambiances, nous pourrons utiliser *SEARCH_ACTION*.
+
+== User interface and navigation
+* Afin de faire l'architecture de chaque page de notre application, nous serons amener à utiliser des *Layouts*, comme par exemple des
+ *ConstraintLayouts* (afin de mettre des éléments avec des contraintes/informations par rapports à d'autres) ou des *RelativeLayouts*, des *RecyclerViews* pour lister des ambiances ou des livres. +
+ Afin de mettre en valeur des titres ou des notions importantes de l'application, nous pourrons utiliser des *Styles and Themes* que nous pourrons créer nous mêmes, ou en
+  utiliser des spécifiques (comme pour mettre en valeur un titre ou un thème). On pourra ajouter à cela l'utilisation des *TEXT* (i.e. des *TextView* permettant de personnaliser nos textes).
+  * Cela constituera en majorité notre application quant à l'utilisation des textes. +
+ Des *Buttons* seront utilisés pour la première page, la liste des livres où il y aura possibilité de cliquer sur "Télécharger" ou bien "Lire". +
+ Pour vérifier la connexion à la box, nous utiliserons des *Toggle Buttons* : l'état "ON" signifiera que le smartphone est bien connecté à la Box. +
+ Nous pourrons, si le temps nous le permet, établir des *Notifications* afin de permettre à l'utilisateur d'être au courant de nouveaux livres ajoutés,
+  ou bien de lui rappeler le livre qu'il est en train de lire. +
+ * Afin d'effectuer nos recherches dans l'application, nous pourrons utiliser des *App Bars*. +
+ * Afin de gérer la navigation général de notre application, les liens entre chacune des pages, nous serons amenés à étudier le *Designing effective navigation* et le *Implementing effective navigation*. +
+ Lors de la lecture de nos livres, afin d'assurer une "animation" entre les pages, nous utiliserons des *ViewPager*. +
+ * Afin de marquer des messages d'erreurs, nous pourrons utiliser des *Toasts*, comme pour dire par exemple que le test d'ambiance olfactive n'est pas possible hors lecture. +
+ Pour indiquer à l'utilisateur qu'un livre a bien été téléchargé, il pourra être utile d'implémenter des *Pop-up messages* avec des *SnackBar* par exemple.
+  * Cela ne requiert aucune réponse de l'utilisateur au message, mais le prévient juste de l'action exécuté : ici le téléchargement du livre. +
+ Nous aurons besoin de *Menus* pour les pages "Ma Biblio", "Libraire" et la page principale : c'est ici que nous ajouterons les options de retour en arrière et de recherche. +
+ Pour gérer nos réglages, nous utiliserons *Settings* avec des *Preferences* pour la connexion à la box et pour le volume sonore. +
+ * Pour améliorer la qualité de la recherche, nous pourrons, si nous avons le temps, utiliser des *SearchView* permettant de prendre en compte les dernières recherches par exemple.
+
+== Animations and transitions
+ * Lorsque nous listerons les livres ou les ambiances, nous aurons besoin d'animations lorsque l'utilisateur cliquera sur un item :
+  cela se passera lors d'un changement vers une activité avec une *Transition*. +
+*  Nous n'avons pas de préférences particulière pour une animation, cela se fera lors des recherches approfondies sur cette rubrique.
+
+
+== Images and graphics
+ * Nous aurons besoin d'images pour afficher la liste des ambiances, ou bien mettre des icones sur notre page principale, lors de la page
+ de présentation avec notre logo et enfin pour certains livres dont nous trouverons la page de couverture. +
+  Nous utiliserons de ce fait *Drawable*. Nous essayerons, afin de garder une bonne qualité d'image, d'utiliser des *VectorDrawable*.
+ * Pour assurer la minimalité du poids des images, nous utiliserons la rubrique *Reducing image download sizes.
+
+== Audio and videos
+ * Afin de lire des sons depuis le mode sans box, il faudra que notre application soit capable de diffuser des sons. Pour ce faire, nous étudierons
+ l'*Audio support* pour gérer les formats. +
+ * Pour gérer l'utilisation de ces sons dans le mode manuel (où l'utilisateur pourra programmer les sons de sa lecture), il faudra travailler sur
+  la rubrique *Media app architecture* (avec Player and UI, Media session and controller, audio infrastructure). +
+ Pour assurer la diffusion des sons en play-back avec les haut-parleurs de la "Magic Box", nous serons amenés à utiliser un *MediaRouteProvider*
+ dans la rubrique *Rooting between devices*. +
+ * Pour gérer les évolutions sonores, l'utilisateur aura la capacité depuis son smartphone d'augmenter et de baisser le son. Pour cela, il nous
+  faudra travailler sur *VolumeShaper*. +
+ * L'exécution des sons se fera grâce a des *MediaPlayers*.
+
+== Background tasks
+* Nous n'aurons pas besoin de cette rubrique pour le moment car notre application n'aurons pas de fonctionnalité en arrière-plan. Cela pourrait
+être nécessaire si nous voulons éviter d'impacter la performance des autres applications, mais cela n'est pas une priorité.
+
+
+== App data and files
+ * Afin de gérer les données de téléchargement des livres, il pourra être utile d'étudier l'*Internal storage*, qui permettra
+  de stocker les livres téléchargés. Cela passera par l'objet *File*. +
+* Pour gérer le stockage de notre base de données locale, nous utiliserons *Room* (permettant une utilisation dérivée de SQLite).+
+
+
+== User data and identity
+ * Cette rubrique ne sera pas étudier dans une première version de l'application. Cela pourrait rester utile si nous voulons améliorer
+  notre application avec la création de comptes afin que l'utilisateur puisse se connecter avec ses identifiances.
+
+== User location
+ * Nous n'aurons pas besoin de cette rubrique.
+
+== Touch and input
+ * Pour récuperer les actions d'appui sur une icône, nous pourrons utiliserons des *onTouchEvent* et
+ des *Listeners* (comme *onClickListener*).
+
+
+
+== Camera
+ * Nous n'aurons pas besoin de cette rubrique.
+
+== Sensors
+* Nous n'aurons pas besoin de cette rubrique.
+
+== Connectivity
+* Afin de gérer la connexion Wi-Fi avec la "Magic Box", il nous faudra la
+ rubrique *Perform network operations*, et plus particulièrement la rubrique *Wi-Fi*. +
+* De plus, il faudra avoir une connexion vers notre serveur externe afin de télécharger
+ les livres et les ambiances associées : cela se fera grâce à *Transfer data using sync adapters*.
+
+
+== Renderscript
+* Nous n'aurons pas besoin de cette rubrique.
+
+== Web-based content
+* Nous n'aurons pas besoin de cette rubrique.
+
+== Android App Bundles
+* Nous n'aurons pas besoin de cette rubrique.
+
+== Google Play Instant
+* Nous n'aurons pas besoin de cette rubrique.
+
+== Slices
+ * Cette rubrique pourra être utiliser si nous avons le temps afin d'optimiser
+  notre rendu visuel des éléments de notre application.

@@ -1,0 +1,36 @@
+== Tâches à effectuer
+
+
+
+
+[cols=",,^",options="header",]
+|=================================================================================
+| Tâche | Description                                           | Intégré au PAN2  
+| T0    | Page d'accueil                                        | X
+| T0.1  | Tutorial to understand the app                        |
+| T1    | Resume                                                | X
+| T1.1  | Create a layout to see the book                       | X
+| T1.2  | Display the current page                              |
+| T1.3  | Modify the font                                       |
+| T1.4  | Play/Pause on the sound                               |
+| T2    | Page principal with menus                             | X
+| T2.1  | Button on toolbar to have information                 | X
+| T3    | My Collection                                         | X
+| T3.1  | Get the good books that were saved                    |
+| T3.2  | Search item available                                 |
+| T3.3  | Automatic reading                                     |
+| T3.4  | Manual mode                                           |
+| T3.5  | Delete book                                           |
+| T3.6  | Add favorite                                          |
+| T4    | Library                                               | X
+| T4.1  | Collect books connected on the server                 |
+| T4.2  | Make a search                                         |
+| T4.3  | Download a book                                       |
+| T5    | Atmosphere                                            | X
+| T5.1  | Play a specific atmosphere                            |
+| T5.2  | Have details of this atmosphere                       |
+| T5.3  | Make a search                                         |
+| T6    | Settings                                              | X
+| T6.1  | Connect to the box                                    |
+| T6.2  | Modify the volume                                     |
+|===================================================================================

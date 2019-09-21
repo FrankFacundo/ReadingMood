@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_bottom_discover"
+        android:title="@string/discover"
+        android:icon="@drawable/disvover_icon"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        />
+
+   <!--
+
+    <item
+        android:id="@+id/navigation_bottom_my_atmopsheres"
+        android:title="Atmospheres"
+        android:icon="@drawable/icon_atmosphere"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        />
+
+    -->
+
+    <item
+        android:id="@+id/navigation_bottom_resume"
+        android:title="Resume"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/resume_button"
+
+        />
+
+
+
+    <item
+        android:id="@+id/navigation_bottom_my_favorite"
+        android:title="Favorites"
+        android:icon="@drawable/favorite_bottom"
+        android:enabled="true"
+        app:showAsAction="always"
+
+        />
+
+
+
+
+
+
+
+
+</menu>
+

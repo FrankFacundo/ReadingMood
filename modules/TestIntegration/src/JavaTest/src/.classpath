@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/gson_lib"/>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="lib" path="/home/clement/Documents/Cours/jLayer/jlayer-1.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/clement/Documents/Cours/EcoleInge/PACT/Git/pact35/modules/TestIntegration/src/JavaTest/gson-2.6.2.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

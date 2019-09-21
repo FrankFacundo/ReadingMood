@@ -1,0 +1,16 @@
+=== Module Base de données
+
+== Descriptions
+Ce module est associé à Grira Khaled et Chêne Thomas.
+Ce module a comme but mettre en place une base de données qui accueillerait les ambiances sonores et
+les odeurs associées aux textes. Il s’agit aussi de récuperer tous les textes afin de les proposer à l’utilisateur
+et au module de classification. Les odeurs seront de plus transmises au module Raspbery Pi afin de trouver
+un moyen de les diffuser. Nous pensons ainsi utiliser une dizaine d’odeurs au maximum et une centaine de
+sons pour notre projet.
+
+== Avancement
+Création d’une première base de données sur excel avec des idées d’ambiances. Idées de structures pour
+notre base de données.
+
+== Bibliographie spécifique
+https://fr.coursera.org/learn/sql-data-science https://fr.coursera.org/learn/python-network-data

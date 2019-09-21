@@ -1,0 +1,51 @@
+Base de données PAN1
+~~~~~~~~~~~~~~~~~~~~
+Binôme: Thomas CHENE et Khaled GRIRA
+
+
+Base de données en ligne
+^^^^^^^^^^^^^^^^^^^^^^^^
+[options="header,footer"]
+|=======================
+|Identifiant|Titre|Auteur|Année|Description|Genre(s)
+|Int   |String     |String   |Int   |String |Array of string
+|=======================
+[options="header,footer"]
+|======================
+|Lien de téléchargements |Valabilité
+|String |Boolean
+|======================
+* Côté utilisateur: 
+   . Les utilisateurs peuvent consulter et télécharger les livres modifiés, grâce au lien de téléchargement, selon l'indication de valabilité
+   . Recherche par titre ou auteur ou genre
+   . La recherche doit tolérer les erreurs
+* Côté programmeur:
+    . Upload ou download de nouveau fichier, i.e ajouter les nouvelles références
+    . modifier/supprimer n'importe quoi (on ne peut supprimer un attribut, juste le modifier bien sûr)
+
+
+Base de données à l'usage du traitement des textes 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Il faudra 2 (voire 3 tables)
+
+Table 1: Pour les mots
+^^^^^^^^^^^^^^^^^^^^^^
+
+[options="header, footer"]
+|===============
+|Identifiant|Mot|Ambiance(s) associée(s)
+|Int |String | Array of String
+|===============
+
+Table 2: Pour les sons 
+^^^^^^^^^^^^^^^^^^^^^^
+[options="header,footer"]
+|========
+|Identifiant|Nom|Lien vers le son|Ambiance(s) associée(s)
+|Integer|String|String|Array of String
+|========
+
+Ces deux bases de données peuvent être en local.
+
+

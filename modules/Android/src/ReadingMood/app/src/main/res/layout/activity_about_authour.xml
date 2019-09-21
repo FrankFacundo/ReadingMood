@@ -1,0 +1,118 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBarBackground"
+    android:configChanges="keyboardHidden|orientation"
+    tools:context=".Pages.AboutAuthor"
+    >
+
+    <include
+        android:id="@+id/my_toolbar_about_the_auhtor"
+        layout="@layout/toolbar_about_author"
+
+        />
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar_to_collapse_about_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapse_toolbar_about_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@color/appBarBackground"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/ic_launcher_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/image_about_the_author"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_vertical|center"
+                    android:background="@drawable/rounded"
+                    android:maxWidth="150dp"
+                    android:maxHeight="150dp"
+                    app:srcCompat="@drawable/author"
+                    tools:layout_editor_absoluteX="88dp"
+                    tools:layout_editor_absoluteY="129dp" />
+
+                <TextView
+                    android:id="@+id/about_author_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/title_style_main"
+                    android:gravity="center_horizontal"
+                    android:text="Author"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/about_author_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/title_style_main"
+                    android:gravity="center_horizontal"
+                    android:text="Date"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <FrameLayout
+            android:id="@+id/layout_to_inflate_about_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            >
+
+        </FrameLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+
+
+
+
+
+
+
+
+

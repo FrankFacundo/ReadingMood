@@ -1,0 +1,12 @@
+=== Module Test et Intégration
+
+== Descriptions
+
+Ce module est associé à Bernard Clément et Nait Saada. Il permet de mettre en lien les modules et de
+tester les différents prototypes. Cela passera par le test de la lecture des textes sur l’application, le test
+du lancement des sons en connexion avec la ”Magic Box”, la mise en commun des différents codes.
+== Avancement
+Nous commencons la réflexion des types de données et des interfaces entre modules afin d'anticiper l'élaboration des tests.
+De plus, nous gérons le dépôt git afin que chacun puisse être au point et avoir un dossier commun par module, nous facilitant la recherche
+du travail effectué par nos camarades.
+== Bibliographie spécifique

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:icon="@drawable/swipe_page"
+        android:id="@+id/resume_page"
+        app:showAsAction="always"
+        android:title="family"
+        />
+
+    <item
+        android:icon="@drawable/font_family"
+        android:id="@+id/resume_size"
+        app:showAsAction="always"
+        android:title="family"
+        app:actionViewClass="android.widget.Spinner"
+        />
+
+
+    <item
+        android:icon="@drawable/font_size"
+        android:id="@+id/resume_font"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.Spinner"
+        android:title="size"
+        />
+
+
+
+    <item
+        android:icon="@drawable/smell_resume"
+        android:id="@+id/resume_smell"
+        app:showAsAction="always"
+        android:title="Display Smell"
+        />
+
+
+
+    <item android:id="@+id/display_media_resume_manual"
+        app:showAsAction="always"
+        android:icon="@drawable/to_open_media_manual_resume"
+        android:title="Display media" />
+
+
+    <item
+        android:icon="@drawable/manual_resume_mode"
+        android:id="@+id/manual_mode_resume"
+        app:showAsAction="always"
+        android:title="Manual mode"
+        />
+
+
+
+
+
+
+
+</menu>

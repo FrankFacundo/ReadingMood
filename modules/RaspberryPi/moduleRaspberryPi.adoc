@@ -1,0 +1,16 @@
+=== Module Rasberry Pi
+== Descriptions
+
+Ce module est associé à Chêne Thierry et Facundo Frank. Cette équipe a pour but de mettre en place la
+Magic box. Cela passe par la mise en place concrète du physique de la boı̂te permettant de diffuser les
+odeurs et les sons. Cela passera par le raspberry pi qui recevra des signaux du smartphone afin d’activer
+un son ou une odeur. On cherchera aussi à faire du design 3D pour notre boı̂te grâce au Fablab et aux
+possibiltés offertes à Télécom.
+== Avancement
+
+Discussion avec Tarik Graba pour imaginer un premier style de diffuseur d’odeur. Recherche d’huiles
+essentielles utilisables pour la création d’ambiances.
+
+== Bibliographie spécifique
+https://www.aroma-zone.com/info/dossier-thematique/fabriquer-son-parfum
+https://fr.coursera.org/learn/raspberry-pi-platform

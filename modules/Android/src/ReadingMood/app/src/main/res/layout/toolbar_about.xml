@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/my_toolbar_about"
+    android:background="#254263"
+    android:layout_height="?attr/actionBarSize"
+    android:elevation="4dp">
+
+    <TextView
+        android:text="About the project"
+        android:id="@+id/toolbar_about_text"
+        style="@style/text_toolbar"
+
+    />
+
+</android.support.v7.widget.Toolbar>

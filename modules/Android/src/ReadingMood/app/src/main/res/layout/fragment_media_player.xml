@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:configChanges="keyboardHidden|orientation"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="70"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/current_atmosphere_played_media"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/title_style_main"
+                    android:text="Current Ambiance"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:orientation="horizontal">
+
+                    <SeekBar
+                        android:id="@+id/seekbar_media_player"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_weight="100"
+                        android:progressBackgroundTint="@color/appBarBackground"
+                        android:progressTint="@color/appBarBackground"
+                        android:thumbTint="@color/appBarBackground" />
+
+
+                    <TextView
+                        android:id="@+id/time_to_display"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:fontFamily="@font/title_style_main"
+                        android:text="0:00"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/time_final_play_media"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:fontFamily="@font/title_style_main"
+                        android:text="0:00"
+
+                        android:textColor="@color/white" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <android.support.design.widget.CoordinatorLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/play_button_media_player"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="30"
+                    android:visibility="visible"
+                    app:backgroundTint="@color/white"
+                    app:fabCustomSize="40dp"
+                    app:layout_anchorGravity="bottom|center"
+                    app:srcCompat="@drawable/resume_button"
+                    tools:ignore="VectorDrawableCompat" />
+
+
+            </android.support.design.widget.CoordinatorLayout>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

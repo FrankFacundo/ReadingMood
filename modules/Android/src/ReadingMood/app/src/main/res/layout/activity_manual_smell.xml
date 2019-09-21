@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pages.ManualSmell">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <include
+            android:id="@+id/my_toolbar_manual_smell"
+            layout="@layout/toolbar_manual_smell" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle_view_manual_mode_smell"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="70dp"
+            android:paddingBottom="5dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/my_toolbar_manual_smell">
+
+
+        </android.support.v7.widget.RecyclerView>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingAddManual_smell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="32dp"
+            android:clickable="true"
+            app:backgroundTint="@color/appBarBackground"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/add_for_manual"
+            tools:ignore="VectorDrawableCompat" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

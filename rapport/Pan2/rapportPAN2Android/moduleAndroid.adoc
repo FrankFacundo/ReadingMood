@@ -1,0 +1,23 @@
+=== Module Android
+
+== Descriptions
+Ce module est associé à Bernard Clément et Bécart Thierry. Ce module met en place l’architecture de
+l’application. L’utilisateur pourra avoir le choix entre chercher des livres dans la rubrique ”Libraire”, où il
+pourra les télécharger pour les avoir en local. Dans ce cas, il pourra aller dans la rubrique ”Ma Biblio” où
+ils seront présents. Il sera ensuite possible de lire le livre choisi dans l’application. Il faudra alors établir
+la connexion avec la ”Magic Box”, pour ensuite permettre la diffusion des odeurs et des sons. On pourra
+ensuite accéder à la liste des sons disponibles dans la rubrique ”Ambiances”. Enfin, il sera possible de
+gérer la connexion dans les réglages. +
+
+== Avancement
+
+Une grande partie de l'application a été implémentée. Une version tablette a été faite pour la rubrique "My Collection". +
+De plus, nous avons réalisé un second design qui pourrait remplacer le premier afin de rendre l'application à la fois plus 
+attractive et plus compréhensible. +
+Enfin, nous travaillons sur la lecture des fichier .epub afin de les afficher et de mettre en place la lecture, pour enfin
+l'associer aux ambiances.
+
+== Bibliographie spécifique
+https://openclassrooms.com/fr/courses/2023346-creez-des-applications-pour-android
+https://developer.android.com/
+https://codelabs.developers.google.com/android-training/

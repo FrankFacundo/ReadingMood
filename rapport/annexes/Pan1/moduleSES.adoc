@@ -1,0 +1,19 @@
+=== Module SES
+== Descriptions
+À travers des études de focus group, des études quantitatives ou des grilles d’entretiens qualitatifs, ce
+module nous permet de donner une réalité pratique à notre projet. Dans un premier lieu (PAN1), nous
+avons discerné au mieux notre public cible à travers des entretiens qualitatifs. Dans un second temps
+(PAN2), nous réaliserons des études quantitatives au travers de sondages pour trouver les ambiances
+possibles associés à des odeurs et sons potentiels qui correspondraient au mieux aux attentes des potentiels
+utilisateurs. Dans un dernier temps (PAN3), nous testerons notre application auprès de quelques possibles
+utilisateurs, afin d’améliorer le produit.
+
+== Avancement
+Nous avons effectué une vingtaine d’entretiens en interrogeant des personnes capables de représenter au
+mieux notre public cible. Parmi elles, Catherine Morhangue, responsable du CRDN de Télécom Paristech,
+des étudiants âgés d’une vingtaine d’années, des étudiants en seconde en phase de passer de la lecture pour
+enfants à de la lecture plus difficile, dite encore lecture classique.
+
+== Bibliographie spécifique
+Dynamique générationnelle et pesanteur sociale, Olivier Donnat Étude concernant l’évolution des pratiques
+de lecture au cours du temps

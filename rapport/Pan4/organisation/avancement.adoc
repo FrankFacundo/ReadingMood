@@ -1,0 +1,42 @@
+=== Diagramme d’avancement des tâches (PAN2+)
+
+*Mettre à jour le* Tableau *à chaque PAN*
+
+Vous devez y résumer l’avancement de vos modules.
+
+L’avancement est mesuré par rapport à l’ensemble du travail à effectuer.
+L’avancement prévu correspond à l’avancement prévu au PANx, tel que
+renseigné dans votre diagramme temporel. L’avancement réel est ce que
+vous avez réellement atteint.
+
+Vous préciserez également le temps passé sur le module, afin d’apprendre
+à évaluer la durée des tâches.
+
+La description du travail effectué est brève mais vous devez absolument
+rencontrer votre expert (encadrant de module) pour qu’il détaille ses
+attentes en termes de rendus dans la fiche module qu’il vous remettra.
+Avant chaque PAN vous devrez le rencontrer pour récupérer une
+appréciation de votre travail.
+
+Lorsque vous estimerez votre module terminé, vous demanderez une
+soutenance afin d’être évalué et d’obtenir une note de module. La
+soutenance s’effectue devant au moins deux enseignants.
+
+[width="100%",cols="8%,9%,9%,7%,67%",options="header",]
+|=======================================================================
+|Module |Avancement Prévu (%) |Avancement Réel (%) |Temps passé (h) |Description brève du travail effectué, analyse des écarts constatés
+
+
+|Android | 100% | 100% | 100 | Ajout de la lecture des epubs avec mode manuel et mode automatique, utilisation de SQLite pour stocker les livres dans l'application.
+
+|Classification | 100% | 100% | 120 | Vectorisation, réduction de dimensions et classification des textes dans des classes d'ambiances effectuées avec 41% de précision en multi-classe. Lien avec le serveur de la BDD établi. Utilisation d'un arbre de classifieurs binaires pour de meilleurs résultats. 
+
+|Raspberry Pi | 100% | 100% | 90 | Communication avec l'application, création d'un mécanisme de vaporisation d'odeurs avec un moteur et pulvérisateurs commandés par la Raspberry Pi.Création d'une boîte à la découpeuse laser.
+
+|Communication Client Serveur | 80% | 80% | 80 | Communication entre le serveur de la BDD et l'application établie grâce à des socket. 
+
+|Base de Données | 80% | 80% | 80 | Mise en place d'un serveur, avec option de stockage des données, livres accessibles par requête, découpés puis traités par le classifieur et renvoyés à l'application grâce à la communication client-serveur. Création de sons d'ambiance à partir d'une base de données.
+
+|Test et Intégration | 60% | 60% | 50 | Mise en place des interfaces, diagrammes de séquences, tests qualitatifs, gestion dépôt git, création des 
+classes pour coder une version 0 de l'application et implémentation de toutes les fonctions tests, qu'il reste à effectuer.
+|=======================================================================

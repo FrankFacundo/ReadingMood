@@ -1,0 +1,88 @@
+=== Plans de test (PAN2+)
+
+Vous allez travailler sur chaque bloc de votre projet, et qu’il soit
+informatique, électronique ou matériel, vous allez devoir faire du
+test :
+
+* tester que le bloc que vous venez de finir fait ce qu’il faut ;
+* tester que le bloc fonctionne avec les blocs en amont ou en aval dans
+l’architecture ;
+* tester que les performances sont acceptables…
+* et plus globalement, tester que le projet « marche ».
+
+Vous allez devoir faire ce travail sur le prototype allégé, puis sur le
+prototype final. C’est un travail dans le module « intégration et
+tests ».
+
+Cette section rassemble les plans de test du proto allégé et du proto
+final. C’est une liste des tests à effectuer, sous la forme, pour chaque
+test :
+
+* situation/contexte
+* action ou entrée à appliquer
+* réaction ou sortie attendue.
+
+=== Tests à effectuer (réalisables automatiquement)
+
+
+== Module Android
+
+* Le téléchargement se fait-il correctement ? En temps raisonnable ? +
+Fonction : *public long downloadTimeTest(User user, LivreLibrary bookToDownload)* +
+Chemin : *"../annexes/code/src/JavaTest/src/Tests.java"*
+* Est-il possible de diffuser des sons sans box ? (grâce aux haut-parleurs du téléphone) +
+Fonction : *public boolean isDisplayedWithoutBox(User user)* +
+Chemin : *"../annexes/code/src/JavaTest/src/Tests.java"*
+* Est-il possible d'enregistrer l'avancement d'une lecture ? (le mode "Reprendre ma lecture") +
+Fonction : *public boolean isSavedCurrentBook(User user)* +
+Chemin : *"../annexes/code/src/JavaTest/src/Tests.java"*
+* Le mode manuel fonctionne-t-il bien ? Est-il enregistré après fermeture de l'application ? +
+Fonction : *public boolean isSavedManualMode(User user)* +
+Chemin : *"../annexes/code/src/JavaTest/src/Tests.java"*
+
+== Module Raspberry pi
+
+* La connexion à l'application se fait-elle correctement ? +
+Fonction : *def isGoodConnection(user):* +
+Chemin : *../annexes/code/src/PythonTest/test.py*
+* Est-ce que les sons et les odeurs diffusées correpondent aux messages envoyés depuis l'application ? +
+Fonction : *def isWellDisplayed(user) :* +
+Chemin : *../annexes/code/src/PythonTest/test.py*
+
+
+== Module Classification
+
+* Apprentissage : Quel temps faut il mettre pour avoir un apprentissage ? +
+Fonction : *def testTrainingTimeClassifior(user) :* +
+Chemin :  *../annexes/code/src/PythonTest/test.py*
+* Apprentissage : Quel pourcentage de réussite l'apprentissage a-t-il ? +
+Fonction : *def testAccuracyTimeClassifior(user) :* +
+Chemin : *../annexes/code/src/PythonTest/test.py*
+* Apprentissage : Quel temps faut il pour associer une ambiance à un texte ? +
+Fonction : *def testTimeClassifior(user) :* +
+Chemin : *../annexes/code/src/PythonTest/test.py*
+* L'envoie d'un texte à la classification renvoie-t-elle une ambiance ? +
+Fonction : *def testReturnAmbianceClassifior(user) :* +
+Chemin : *../annexes/code/src/PythonTest/test.py*
+
+
+
+== Module Communication Client Serveur
+
+* La connexion entre l'application et le serveur lors du téléchargement se fait-elle correctement (et rapidement) ?
+
+
+
+== Base de Données
+
+* Le format des livres est-il respecté ? +
+Fonction : *def isRespectedFormat(user) :* +
+Chemin : *../annexes/code/src/PythonTest/test.py*
+* La transition entre ePub et .txt se fait-elle bien (avec le module classification) ? +
+Fonction : *def tranistionTxtToEpub(user) :* +
+Chemin : *../annexes/code/src/PythonTest/test.py*
+* A-t-on une association d'un texte à une ambiance sonore et/ou olfactive ? +
+Fonction : *def isAssociated(user) :* +
+Chemin : *../annexes/code/src/PythonTest/test.py*
+
+

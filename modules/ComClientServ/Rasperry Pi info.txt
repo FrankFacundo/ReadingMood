@@ -1,0 +1,6 @@
+Rasperry Pi info:
+SO : Ubuntu Mate 16
+Name: KFCfreeT
+Computer's Name : kfcfreet-pi
+Username: kfcfreet
+PW: kfc

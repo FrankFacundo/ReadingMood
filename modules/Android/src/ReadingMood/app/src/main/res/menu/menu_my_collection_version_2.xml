@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Summary"
+        android:id="@+id/summary_popmenu_version_2"
+        />
+    <item
+        android:id="@+id/play_popmemnu_collection_version_2"
+        android:title="Play"
+        />
+
+    <item
+        android:id="@+id/list_atmosphere_menu"
+        android:title="Atmospheres "
+        />
+
+    <item
+        android:id="@+id/delete_from_collection"
+        android:title="Delete"
+        />
+
+
+
+</menu>

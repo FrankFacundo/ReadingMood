@@ -1,0 +1,5 @@
+Wireless Router Belkin Surf N150
+User : KFCfreeT
+Password: KFCfreeT
+IP Static : 192.168.0.2
+PORT : 9877

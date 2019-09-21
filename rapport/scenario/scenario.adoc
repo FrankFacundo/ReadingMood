@@ -1,0 +1,20 @@
+Scénario
+~~~~~~~~
+
+pass:[<div align="center"><b> ReadingMood </b></div>]
+
+Ce produit est destiné aux lecteurs qui veulent vivre une expérience augmentée de la lecture. ReadingMood est là pour vous : entre expériences olfactives et sonores, l’envoûtement sera total. Nous vous
+proposons d’associer sons et odeurs liés au thème de votre lecture.
+Vous n’avez qu’à télécharger l’application et êtes libre d’acheter le boı̂tier associé (nommé Magic Box). Depuis l’application, vous pouvez sélectionner un livre de notre librairie, dans laquelle se trouvent uniquement des oeuvres libres de droit. Une fois sélectionnée, cette dernière sera ajoutée à votre librairie personnelle et sera accessible, même hors-ligne.
+
+Vous pourrez choisir entre un mode automatique et manuel, auquel cas vous choisirez vous même les
+ambiances pour votre lecture. En mode manuel, vous être libre de programmer votre liste d’ambiances
+pour personnaliser votre lecture. En mode automatique, nous vous permettrons de suivre votre lecture
+en y associant une ambiance adaptée au thème de celle-ci.
+
+De plus, pour rendre l’expérience encore plus intense, le boı̂tier contiendra des échantillons d’odeurs en
+lien avec certaines ambiances afin de mobiliser tous vos sens. Nous utiliserons une dizaine d’échantillons
+d’odeurs qui vous seront envoyées depuis le boı̂tier grâce à des pulvérisateurs, commandés par connexion
+sans fil (Wi-Fi) depuis l’application jusqu’au Raspberry Pi. En outre, la pulvérisation ne sera pas
+systématique : seuls certains thèmes auront un échantillon d’odeurs associé en plus d’une ambiance
+sonore.

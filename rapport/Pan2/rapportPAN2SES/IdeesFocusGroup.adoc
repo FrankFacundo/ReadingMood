@@ -1,0 +1,18 @@
+=== Idée pour le focus group
+
+Nous voulons démontrer ou du moins étudier l’efficacité de notre Reading Mood qui cherche à améliorer l’expérience de la lecture. +
+Notre application Reading Mood est-elle susceptible d’améliorer l’expérience de lecture ? Quelle méthode mettre en place pour évaluer le rôle qu’elle joue ? +
+La notion de plaisir en lisant reste très subjective et difficile à étudier. Il est donc nécessaire de trouver des critères mesurables.
+Il nous semble intéressant d'étudier la mémorisation des passages lus et de voir avec nos outils si une personne se souvient de détails précis quelques jours après avoir lu le livre. +
+
+== Plan pour le focus group
+Nous allons aussi restreindre notre étude à la série Harry Potter. +
+L’univers décrit est propice à notre Reading Mood, il y a beaucoup d’ambiances différentes, et l’utilisateur peut déjà facilement se représenter des lieux merveilleux et des personnages hauts en couleur dans sa tête. +
+On va ensuite sélectionner trois passages similaires dont l’ambiance est connue provenant de plusieurs de ces romans. On fera ensuite trois expériences :
+
+* Expérience « témoin » : On fait lire le premier passage avec les sons et odeurs que nous avons choisis manuellement pour être sûrs que ce ne soit pas aberrant
+* Expérience 2 : On fait lire le deuxième passage avec des sons et odeurs choisies par l’utilisateur
+* Expérience 3 : On fait lire le troisième passage sans sons ni odeurs
+
+On comparera ensuite la mémorisation des passages en demandant ce que nos testeurs ont retenus de chaque passage le lendemain du test et même une semaine après le test. +
+On pourra prendre comme passages les parties de Quidditch qui sont présentes dans la plupart des Harry Potter, et les repas de Noël à Poudlard.

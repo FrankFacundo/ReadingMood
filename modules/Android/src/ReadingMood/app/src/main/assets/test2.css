@@ -1,0 +1,429 @@
+/**/
+body {
+    margin-left: 8%;
+    margin-right: 10%
+    }
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large
+    }
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large
+    }
+.pageno {
+    font-size: x-small;
+    background-color: inherit;
+    color: silver;
+    text-indent: 0;
+    text-align: right;
+    border: thin solid silver;
+    padding: 0.1em 0.2em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none
+    }
+p {
+    text-indent: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: justify
+    }
+sup {
+    vertical-align: top;
+    font-size: 0.6em
+    }
+.fss {
+    font-size: 75%
+    }
+.sc {
+    font-variant: small-caps
+    }
+.xlarge {
+    font-size: x-large
+    }
+.small {
+    font-size: small
+    }
+.lg-container-b {
+    text-align: center
+    }
+@media all {
+    /* was @media handheld */
+    .lg-container-b {
+        clear: both
+        }
+    }
+.lg-container-l {
+    text-align: left
+    }
+@media all {
+    /* was @media handheld */
+    .lg-container-l {
+        clear: both
+        }
+    }
+.lg-container-r {
+    text-align: right
+    }
+@media all {
+    /* was @media handheld */
+    .lg-container-r {
+        clear: both
+        }
+    }
+.linegroup {
+    display: inline-block;
+    text-align: left
+    }
+@media all {
+    /* was @media handheld */
+    .linegroup {
+        display: block;
+        margin-left: 1.5em
+        }
+    }
+.linegroup .group {
+    margin: 1em auto
+    }
+.linegroup .line {
+    text-indent: -3em;
+    padding-left: 3em
+    }
+div.linegroup > :first-child {
+    margin-top: 0
+    }
+.linegroup .in12 {
+    padding-left: 9em
+    }
+.linegroup .in16 {
+    padding-left: 11em
+    }
+.linegroup .in18 {
+    padding-left: 12em
+    }
+.linegroup .in2 {
+    padding-left: 4em
+    }
+.linegroup .in20 {
+    padding-left: 13em
+    }
+.linegroup .in22 {
+    padding-left: 14em
+    }
+.linegroup .in24 {
+    padding-left: 15em
+    }
+.linegroup .in4 {
+    padding-left: 5em
+    }
+.linegroup .in40 {
+    padding-left: 23em
+    }
+.linegroup .in44 {
+    padding-left: 25em
+    }
+.linegroup .in6 {
+    padding-left: 6em
+    }
+.linegroup .in8 {
+    padding-left: 7em
+    }
+.index li {
+    text-indent: -1em;
+    padding-left: 1em
+    }
+.index ul {
+    list-style-type: none;
+    padding-left: 0
+    }
+ul.index {
+    list-style-type: none;
+    padding-left: 0
+    }
+.ol_1 li {
+    padding-left: 1em;
+    text-indent: -1em
+    }
+ol.ol_1 {
+    padding-left: 0;
+    margin-left: 2.78%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    list-style-type: decimal
+    }
+div.footnote > :first-child {
+    margin-top: 1em
+    }
+div.footnote p {
+    text-indent: 1em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em
+    }
+div.pbb {
+    page-break-before: always
+    }
+hr.pb {
+    border: none;
+    border-bottom: thin solid;
+    margin-bottom: 1em
+    }
+@media all {
+    /* was @media handheld */
+    hr.pb {
+        display: none
+        }
+    }
+.chapter {
+    clear: both;
+    page-break-before: always
+    }
+.table0 {
+    margin: auto;
+    margin-top: 2em
+    }
+.table1 {
+    margin: auto;
+    margin-top: 1em
+    }
+.table2 {
+    margin: auto
+    }
+.nf-center {
+    text-align: center
+    }
+.nf-center-c0 {
+    text-align: left;
+    margin: 0.5em 0
+    }
+p.drop-capa0_0_6 {
+    text-indent: 0
+    }
+p.drop-capa0_0_6:first-letter {
+    margin: 0.1em 0.1em 0 0;
+    font-size: 250%;
+    line-height: 0.6em;
+    text-indent: 0
+    }
+@media all {
+    /* was @media handheld */
+    p.drop-capa0_0_6 {
+        text-indent: 0
+        }
+    p.drop-capa0_0_6:first-letter {
+        float: none;
+        margin: 0;
+        font-size: 100%
+        }
+    }
+.c000 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em
+    }
+.c001 {
+    margin-top: 4em
+    }
+.c002 {
+    margin-top: 4em;
+    font-size: 0.9em
+    }
+.c003 {
+    page-break-before: always;
+    margin-top: 4em
+    }
+.c004 {
+    font-size: 40%
+    }
+.c005 {
+    font-size: 35%
+    }
+.c006 {
+    font-size: 45%
+    }
+.c007 {
+    margin-top: 1em
+    }
+.c008 {
+    page-break-before: auto;
+    margin-top: 4em
+    }
+.c009 {
+    vertical-align: top;
+    text-align: right;
+    padding-right: 1em
+    }
+.c010 {
+    vertical-align: top;
+    text-align: left;
+    text-indent: -1em;
+    padding-left: 1em;
+    padding-right: 1em
+    }
+.c011 {
+    vertical-align: top;
+    text-align: right
+    }
+.c012 {
+    margin-top: 2em
+    }
+.c013 {
+    margin-top: 2em;
+    margin-bottom: 0.25em
+    }
+.c014 {
+    text-indent: 1em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em
+    }
+.c015 {
+    margin-top: 2em;
+    font-size: 0.9em
+    }
+.c016 {
+    margin-top: 1em;
+    font-size: 0.9em
+    }
+.c017 {
+    font-size: 0.9em
+    }
+.c018 {
+    font-size: 0.9em;
+    text-indent: 1em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em
+    }
+.c019 {
+    margin-top: 1em;
+    text-indent: 1em;
+    margin-bottom: 0.25em
+    }
+.c020 {
+    text-indent: 0;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em
+    }
+.c021 {
+    text-align: center
+    }
+.c022 {
+    vertical-align: top;
+    text-align: left;
+    padding-right: 1em
+    }
+.c023 {
+    margin-top: 2em;
+    font-size: 0.9em;
+    text-indent: 1em;
+    margin-bottom: 0.25em
+    }
+.c024 {
+    text-decoration: none
+    }
+.c025 {
+    border: none;
+    border-bottom: thin solid;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%
+    }
+.c026 {
+    vertical-align: top;
+    text-align: center;
+    padding-right: 1em
+    }
+.c027 {
+    vertical-align: top;
+    text-align: left
+    }
+.c028 {
+    margin-top: 1em;
+    font-size: 0.9em;
+    text-indent: 1em;
+    margin-bottom: 0.25em
+    }
+.c029 {
+    margin-top: 0.5em
+    }
+.c030 {
+    border: none;
+    border-bottom: thin solid;
+    width: 10%;
+    margin-left: 0;
+    margin-top: 1em;
+    text-align: left
+    }
+div.tnotes {
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #E3E4FA;
+    border: 1px solid silver;
+    margin: 2em 10% 0 10%;
+    font-family: Georgia, serif
+    }
+.covernote {
+    visibility: hidden;
+    display: none
+    }
+div.tnotes p {
+    text-align: left
+    }
+@media all {
+    /* was @media handheld */
+    .covernote {
+        visibility: visible;
+        display: block
+        }
+    }
+@media all {
+    /* was @media handheld */
+    .ol_1 li {
+        padding-left: 1em;
+        text-indent: 0
+        }
+    }
+body {
+    font-family: Georgia, serif;
+    text-align: justify
+    }
+table {
+    font-size: 0.9em
+    }
+.footnote {
+    font-size: 0.9em
+    }
+div.footnote p {
+    text-indent: 2em;
+    margin-bottom: 0.5em
+    }
+.figcenter {
+    font-size: 0.9em
+    }
+.ph1 {
+    text-indent: 0;
+    font-weight: bold;
+    font-size: xx-large;
+    margin: 0.67em auto;
+    page-break-before: always
+    }
+div.titlepage {
+    text-align: center;
+    page-break-before: always;
+    page-break-after: always
+    }
+div.titlepage p {
+    text-align: center;
+    text-indent: 0;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-top: 3em
+    }
+.section {
+    clear: both;
+    page-break-before: always
+    }
+/**/

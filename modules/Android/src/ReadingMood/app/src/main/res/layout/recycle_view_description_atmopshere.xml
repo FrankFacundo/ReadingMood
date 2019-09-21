@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_description_click"
+            >
+
+
+            <TextView
+                android:id="@+id/text_example_description"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/title_style_main"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="Example "
+                android:textColor="@color/colorPrimary"
+                android:layout_weight="2"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+
+            <ImageView
+                android:id="@+id/more_description_atmosphere"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/false_spinner"
+                tools:ignore="VectorDrawableCompat" />
+
+
+
+
+        </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/text_current_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:layout_marginRight="18dp"
+                android:layout_marginLeft="18dp"
+                android:fontFamily="@font/pluto_regular"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,16 @@
+=== Module Android
+
+== Descriptions
+Ce module est associé à Bernard Clément et Bécart Thierry. Ce module met en place l’architecture de
+l’application. L’utilisateur pourra avoir le choix entre chercher des livres dans la rubrique ”Libraire”, où il
+pourra les télécharger pour les avoir en local. Dans ce cas, il pourra aller dans la rubrique ”Ma Biblio” où
+ils seront présents. Il sera ensuite possible de lire le livre choisi dans l’application. Il faudra alors établir
+la connexion avec la ”Magic Box”, pour ensuite permettre la diffusion des odeurs et des sons. On pourra
+ensuite accéder à la liste des sons disponibles dans la rubrique ”Ambiances”. Enfin, il sera possible de
+gérer la connexion dans les réglages.
+== Avancement
+L’IHM a déjà été imaginé.
+Nous avons débuté les cours sur internet (openClassroom).
+
+== Bibliographie spécifique
+https://openclassrooms.com/fr/courses/2023346-creez-des-applications-pour-android

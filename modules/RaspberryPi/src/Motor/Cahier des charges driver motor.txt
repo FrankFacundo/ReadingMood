@@ -1,0 +1,10 @@
+
+
+1 - Driver-Motor a transistor simple
+
+	A 220ohm resistor
+	A 2N2222 transistor
+	A DC motor
+	A 3V battery
+
+2 Capteur 

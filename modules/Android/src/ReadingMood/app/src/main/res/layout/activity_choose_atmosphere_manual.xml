@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pages.ChooseAtmosphereManual"
+    android:orientation="vertical"
+    >
+
+
+    <include
+        android:id="@+id/my_toolbar_atmosphere_select"
+        layout="@layout/toolbar_to_choose_atmosphere"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/title_style_main"
+            android:text="Selected : "
+            android:textColor="@color/ic_launcher_background"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20">
+
+            <TextView
+                android:id="@+id/selected_manual_songs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/title_style_main"
+                android:text=" "
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycle_view_select_songs"
+        android:layout_marginBottom="50dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+        >
+
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+</LinearLayout>

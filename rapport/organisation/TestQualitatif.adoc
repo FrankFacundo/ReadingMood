@@ -1,0 +1,40 @@
+=== Tests qualitatifs (tests non réalisables automatiquement)
+
+== Module Android
+
+* A-t-on un rendu visuel agréable et compréhensible facilement pour l'utilisateur ?
+* Est-il possible de naviguer sans problème dans l'application ?
+* Est-il possible d'accéder facilement aux livres ?
+* L'application consomme-t-elle trop de batteries et mémoires ?
+* L'indicateur de connexion à la box est-il fiable ?
+* L'application s'adapte-t-elle aux différents types d'appareils ?
+* Supporte-t-elle le mode paysage ? (surtoût lors de la lecture)
+
+
+
+== Module Raspberry pi
+
+* Est-ce que le mécanisme de diffusion d'odeurs fonctionne ?
+* Est-il possible de gérer le temps de diffusion pour ne pas trop surcharger ?
+* La diffusion de sons se fait-elle correctement ? Niveau sonore est-il convenable ?
+* Les transitions sont-elles bien exécutées ?
+
+
+== Module Classification
+
+* La lecture automatise associe-t-elle des sons en lien avec la lecture courante de la page ?
+
+
+
+== Module Communication Client Serveur
+
+* La connexion à la "Magic Box" se fait-elle correctement et sans attente prolongée ?
+* Le temps entre l'envoi des sons/odeurs depuis le smartphone et leur diffusion est-il raisonnable ?
+
+
+
+== Base de Données
+
+* Y a-t-il assez de livres ?
+* Y a-t-il suffisemment de sons ?
+* Le partage et la communication entre la base de données locale et le serveur se fait il de manière optimale ?

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.clement.readingmood">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Pages.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Pages.ListAtmosphere"
+            android:parentActivityName=".Pages.MainPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Pages.MainActivity" />
+        </activity>
+        <activity android:name=".Pages.MainPage" />
+        <activity android:name=".Pages.MyCollection" />
+        <activity android:name=".Pages.CollectionClick" />
+        <activity
+            android:name=".Pages.Resume"
+            android:configChanges="orientation|screenSize"
+            android:alwaysRetainTaskState="true" />
+        <activity android:name=".Pages.Settings" />
+        <activity android:name=".Pages.ClickAtmospherePage" />
+        <activity
+            android:name=".Pages.PageVersion2"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Pages.Manuel"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".Pages.ChooseAtmosphereManual" />
+        <activity android:name=".Pages.Library" />
+        <activity android:name=".Pages.ManualSmell" />
+        <activity android:name=".Pages.ChooseAtmosphereManualSmell" />
+        <activity android:name=".Pages.AboutAuthor" />
+        <activity android:name=".Pages.Research" />
+        <activity android:name=".FocusGroup" />
+        <activity android:name=".SQLite.DataBaseMyCollection" />
+        <activity android:name=".Pages.About"></activity>
+    </application>
+
+</manifest>

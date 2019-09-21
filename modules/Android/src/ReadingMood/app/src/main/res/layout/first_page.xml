@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal|center"
+    tools:context=".Pages.MainActivity">
+
+
+    <include
+        android:id="@+id/my_first_toolbar"
+        layout="@layout/first_toolbar" />
+
+
+    <TextView
+        android:id="@+id/author1"
+        style="@style/authors_first_page"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="1dp"
+        android:text="@string/Author1"
+        app:layout_constraintBottom_toTopOf="@+id/author3"
+        app:layout_constraintEnd_toStartOf="@+id/author2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/author5"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:text="@string/Author5"
+        style="@style/authors_first_page"
+        app:layout_constraintBaseline_toBaselineOf="@+id/author6"
+        app:layout_constraintEnd_toStartOf="@+id/author6"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/author6"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/Author6"
+        style="@style/authors_first_page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/author5" />
+
+    <TextView
+        android:id="@+id/author3"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/Author3"
+        style="@style/authors_first_page"
+        app:layout_constraintBaseline_toBaselineOf="@+id/author4"
+        app:layout_constraintEnd_toStartOf="@+id/author4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/author4"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/Author4"
+        style="@style/authors_first_page"
+        app:layout_constraintBottom_toTopOf="@+id/author6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/author3" />
+
+    <TextView
+        android:id="@+id/author2"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/Author2"
+        style="@style/authors_first_page"
+        app:layout_constraintBottom_toTopOf="@+id/author4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/author1" />
+
+    <Button
+
+        android:id="@+id/button_send"
+        android:layout_width="129dp"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/oval"
+        android:contentDescription="Start button"
+        android:fontFamily="@font/title_style_main"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:onClick="pageListAtmosphere"
+        android:text="@string/button_send"
+        android:textColor="@color/appBarBackground"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/authors_firstPage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:srcCompat="@drawable/start_button"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="383dp"
+        android:layout_height="183dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/Logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_first_toolbar"
+        app:srcCompat="@drawable/logo_reading_mood" />
+
+    <TextView
+        android:id="@+id/authors_firstPage"
+        android:fontFamily="@font/title_style_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/pagePrincipalAuteurs"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/author1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

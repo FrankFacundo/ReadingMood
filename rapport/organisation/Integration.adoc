@@ -1,0 +1,119 @@
+=== Intégration
+
+== Liste des logiciels utilisés
+
+* Android : Java et XML pour la mise en page
+* Classification : Python
+* Raspberry Pi : Python
+* Communication Client Serveur : Python et Java
+* Base de données : SQL
+* Test et Intégration : Java, Python et SQL
+
+== Interface entre les modules
+
+
+= Android => Base de Données
+  * Demande des livres disponibles au téléchargement : +
+    Cela passe par l'affichage de la base de données.
+    De ce fait, cela revient à convertir la base de données
+    pour l'afficher sur le smartphone. +
+    Il faut pour cela récupérer l'auteur, une image éventuelle,
+    le titre, et un résumé.
+  * Téléchargement d'un livre : +
+  Enregistrement d'un livre dans les données de l'application. +
+  Cela sauvegardera en plus les ambiances associées à chaque
+  découpage de texte (grâce au module classification). +
+  Il faut en plus des données précédentes récupérer le livre
+  en entier.
+  * Recherche d'un livre : envoie un String et reçoit une liste
+  de livres répondant au mieux au critère
+  * Recherche d'une ambiance : envoie un String et reçoit
+  une liste d'ambiances répondant au mieux au critère. +
+  Ce sera soit une ambiance sonore, soit olfactive.
+
+= Android => Classification
+  Pas de lien directe (cela passe par la base de données)
+
+= Android => Communication Client Serveur
+  * Connexion avec le serveur pour la demande des livres :
+  faire la connexion avec le serveur. +
+  Renvoie un booléen.
+
+  * Connexion à la Raspberry Pi : faire la connexion avec
+  la Raspberry Pi. +
+  Renvoie un booléen si la connexion est établie.
+
+= Android => Raspberry Pi
+  * Diffuse une ambiance sonore : Envoie une liste d'atmosphère
+  (entre 5 et 10) afin de pouvoir gérer les transitions lors
+  des changements de pages. +
+  Il faudra alors envoyer un message à chaque changement de page,
+  et mettre à jour la liste d'ambiance.
+
+  * Diffuse une ambiance olfactive : envoie une liste d'atmosphère
+  (null s'il n'y en a pas) et met à jour cette liste lors d'un
+  changement de page.
+
+  * Modifier l'intensité du son : augment ou baisse le son
+  de l'enceinte.
+
+= Base de Données => Android
+Pas de connexion directe
+
+= Base de Données => Classification
+  * Association d'amiances d'un livre :
+    Récupère les ambiances du livre et les stocke afin de les
+    donner à l'application.
+
+= Base de Données => Communication Client Serveur
+  *Connexion vers le serveur : récupérer les données du
+  serveur distant pour les mettre en local.
+
+= Base de Données => Raspberry Pi
+  Pas de connexion directe
+
+= Classification => Android
+  Pas de connexion directe
+
+= Classification => Base de Données
+  Pas de connexion dans ce sens
+
+
+= Classification => Communication Client Serveur
+  * Connexion avec la base de données :
+  Renvoie un booléen afin d'assurer la connexion avec
+  la base de données.
+
+= Classification => Raspberry Pi
+  Pas de connexion directe
+
+= Communication Client Serveur => Android
+  * Assurer la connexion avec les éléments extérieurs :
+  base de données et Raspberry Pi.
+
+
+= Communication Client Serveur => Base de Données
+  * Assurer la connexion avec l'application Android
+
+= Communication Client Serveur => Classification
+  * Assurer la connexion avec la base de données
+
+= Communication Client Serveur => Raspberry Pi
+  * Assurer la connexion avec l'application Android.
+
+
+= Raspberry Pi => Android
+  * Notifie l'application de l'état de la diffusion :
+  renvoie un message d'erreur si une erreur a surgit.
+
+
+
+= Raspberry Pi => Base de Données
+Pas de connexion directe
+
+
+= Raspberry Pi => Classification
+Pas de connexion directe
+
+= Raspberry Pi => Communication Client Serveur
+* Notifie de la connexion avec l'application

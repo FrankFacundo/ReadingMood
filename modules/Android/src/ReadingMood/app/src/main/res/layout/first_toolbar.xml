@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/toolbar_main_page"
+    android:background="#254263"
+    android:layout_height="?attr/actionBarSize"
+    android:elevation="4dp">
+
+    <TextView
+        android:text="ReadingMood"
+        android:id="@+id/toolbar_title"
+        style="@style/text_toolbar"
+        />
+
+
+</android.support.v7.widget.Toolbar>

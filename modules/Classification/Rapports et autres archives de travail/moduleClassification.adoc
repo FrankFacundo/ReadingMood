@@ -1,0 +1,26 @@
+=== Module Classification par Adaboost
+
+== Descriptions
+
+Ce module est associé à Nait Saada Thiziri et Bécart Thierry. Dans ce module, l’objectif sera de pouvoir
+relier automatiquement les textes de la base de données avec différentes ambiances. Pour la réalisation
+de ce module, nous devrons accomplir trois tâches clés. Tout d’abord, nous devrons être capables de vec-
+toriser un texte. La chaı̂ne de caractères qu’est le texte ne peut effectivement pas être traitée directement.
+On doit le transformer afin de pouvoir l’associer à un algorithme de classification. Une première idée
+consiste à déterminer la fréquence des différents mots d’un texte et de les conserver dans un vecteur. Plus
+généralement, nous utiliserons une technique de vectorisation TF-IDF (term frequency-inverse document
+frequency) prenant aussi en compte le nombre de documents où le mot est présent afin de mieux discrim-
+iner les documents. A partir de ces vecteurs, nous devrons ensuite être capables de faire une première
+classification des documents dans des ambiances. On pourrait utiliser des réseaux de neurones ou bien
+des perceptrons. Afin d’affiner les classifications, nous boosterons les résultats. Les méthodes de boosting
+seront définies avec notre expert Pierre-Alexandre Murena. Afin d’avoir une méthode d’optimisation faible,
+nous utiliserons notamment une méthode de classification linéaire.
+== Avancement
+
+Discussion avec notre expert dans la semaine pour établir les méthodes d’approche.
+
+== Bibliographie spécifique
+https://dl.acm.org/citation.cfm?doid=361219.361220
+https://www.coursera.org/learn/machine-learning?
+fbclid=IwAR23LqRIUfdIriKaOSwZ276AQdRYFvWW5oQCnOZ3-9AYN6ing5882Ku-JQQ
+http://www.site.uottawa.ca/ stan/csi5387/boost-tut-ppr.pdf

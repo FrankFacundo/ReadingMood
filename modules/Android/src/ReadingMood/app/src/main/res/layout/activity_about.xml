@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Pages.About"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:configChanges="keyboardHidden|orientation"
+        >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <include  android:id="@+id/toolbar_about"
+        layout="@layout/toolbar_about">
+
+    </include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/title_style_main"
+            android:gravity="center"
+            android:text="Pourquoi ce projet ?"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/title_style_main"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Ce projet a été réalisé dans le cadre de notre scolarité à Télécom Paristech. \n
+Il a été élaboré dans le cadre du PACT : Projet d’Apprentissage Collaboratif Thématique. \n
+Le thème de notre année était : Art et Science. \n
+Nous avons ainsi réalisé cette application afin de proposer une nouvelle expérience de lecture. \n
+Il faut cependant avoir la Magic Box afin de profiter des effets olfactifs de notre application. Celle-ci n'est disponible pour le moment que sous un exemplaire."
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/pact" />
+
+
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/title_style_main"
+                android:gravity="center"
+                android:text="Remerciements"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/title_style_main"
+                android:gravity="center"
+                android:padding="18dp"
+                android:textStyle="bold"
+                android:text="Un grand merci à Mélissa Rabier pour l'élaboration du logo. \n
+                Nous remercions tous nos experts PACT, nos amis qui nous ont donné leur avis durant l'année. \n
+                Nous remercions aussi beaucoup les personnes qui ont été nos cobayes lors des entretiens SES (entretiens ou focus groupe)."
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/title_style_main"
+            android:gravity="center"
+            android:text="Pact 3.5 : the team"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:paddingBottom="20dp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recycler_view_about"
+            >
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+</ScrollView>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/about_tablette"
+        >
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

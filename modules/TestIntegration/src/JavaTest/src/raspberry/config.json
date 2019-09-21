@@ -1,0 +1,6 @@
+{
+  "ConfigClientServer":{
+    "Port" : "9877",
+    "IP" : "10.30.216.173"
+  }
+}

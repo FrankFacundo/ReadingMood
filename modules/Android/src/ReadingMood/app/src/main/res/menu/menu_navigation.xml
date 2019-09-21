@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/navigation_header">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_resume"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="Resume"
+
+            />
+    </group>
+
+    <item android:title="Reading Ressources">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/navigation_item_my_collection"
+                    android:icon="@drawable/my_collection_button"
+                    android:title="My Collection"
+                    />
+                <item
+                    android:id="@+id/navigation_item_my_library"
+                    android:icon="@drawable/my_librairy"
+                    android:title="Library"
+                    />
+
+            </group>
+
+        </menu>
+
+
+    </item>
+
+    <item android:title="Atmosphere">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/navigation_item_sound_atmosphere"
+                    android:icon="@android:drawable/ic_lock_silent_mode_off"
+                    android:title="Sound Atmosphere"
+                    />
+                <item
+                    android:id="@+id/navigation_item_smell_atmosphere"
+                    android:icon="@drawable/atmosphere"
+                    android:title="Smell Atmosphere"
+                    />
+
+            </group>
+
+        </menu>
+
+
+    </item>
+
+    <item android:title="Informations">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/navigation_item_settings"
+                    android:icon="@android:drawable/ic_menu_manage"
+                    android:title="Settings"/>
+                <item
+                    android:id="@+id/navigation_item_about"
+                    android:icon="@android:drawable/ic_menu_help"
+                    android:title="About"/>
+            </group>
+
+
+        </menu>
+
+
+    </item>
+
+
+
+
+
+</menu>

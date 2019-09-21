@@ -1,0 +1,4 @@
+=== Diagramme de séquence
+
+Voici notre diagramme de séquence :
+image::../images/Diagramme/diagramme.png

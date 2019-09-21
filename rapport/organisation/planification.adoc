@@ -1,0 +1,292 @@
+=== Planning temporel PACT
+
+==== Taches / PAN1 26/11/18
+
+===== Générales
+
+* rapport:
+
+[cols=",^,^,,",options="header",]
+|=====================================================
+|Tâche |Qui |Quand |Fait |Remarques
+|Sujet | Tous ensemble  | Début octobre |+ |
+|Sujet en anglais | Khaled | Debut Novembre |+ |
+|Scenario | Thiziri et Clément | Mi octobre |+ |
+|Architecture (schéma et documentation) | Frank, Thierry et Thomas pour la réflexion. Thierry pour la réalisation. Thiziri pour la documentation |Début novembre |+ |
+|Découpage en modules | Khaled, Thiziri, Thomas, Frank, Thomas et Clément | Vacances de la Toussaint |+ |
+|StoryBoard | Clément et Thiziri pour la réflexion. Clément pour la réalisation et la documentation  | Mi Octobre | +|
+|Etat de l'art | Thomas  | Début Novembre |+ |
+|Planning temporel (ce document, personnalisé) | Thierry, Thomas, Frank et Clément | 19 Novembre  |+ |
+|Répartition | Thiziri | 19 Novembre  |+ |
+|Entretiens SES avec grille d'entretien | Tous ensemble | 19 Novembre  |+ |
+|Rapport SES sur le public cible | Tous ensemble pour la réflexion. Thiziri pour la transcription | 19 Novembre  |+ |
+
+
+|=====================================================
+
+* présentation 15mn
+
+[cols=",^,^,,",options="header",]
+|==================================
+|Tâche |Qui |Quand |Fait |Remarques
+|Préparation du document | Frank | Début Novembre | + |Idée commune du document fait ensemble lors d'une réunion
+|Répartition de la parole | Tous ensemble |23 Novembre | |
+|Répétition |Tous ensemble |23 Novembre | |
+|==================================
+
+==== Taches / PAN2 28/01/19
+
+===== Générales
+
+* rapport
+
+[cols=",^,^,,",options="header",]
+|===========================================
+|Tâche |Qui |Quand |Fait |Remarques
+|mise à jour selon remarques du jury |Tous ensemble |Janvier | x | Réflexion sur critère de validation du projet avec l'expert SES
+|mise à jour de l’architecture | Ensemble | Janvier | x | Fait en cours GL
+|interfaces | Ensemble | Janvier | x | Fait en cours GL
+|plan de test par module et global | Thiziri et Clément | Janvier | x | Mise en place de l'architecture et des tests pour le module associé
+|avancement | | | |
+|===========================================
+
+* Prendre rdv avec vos experts pour le PAN2
+
+[cols=",^,^,,",options="header",]
+|==================================
+|Tâche |Qui |Quand |Fait |Remarques
+|Android|Thierry et Clément |Début Janvier | x |
+|Base de données||||
+|Communication client-serveur||||
+|Raspberry Pi||||
+|Classification par Adaboost|Thiziri et Thierry|Décembre/Janvier/Février|PAN 2 et avancement|
+|Interface utilisateur graphique||||
+|Test et intégration|Thiziri et Clément| x | Discussion PAN2|
+|Module SES| Tous ensemble | Début janvier| x | Discussion travail pour PAN 3 : focus groupe
+|==================================
+
+===== Modules
+
+* Base de données
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Installation et configuration | Décembre | x |
+|Recherche des échantillons et des ambiances | Décembre | x |
+|Plan de test | Décembre | x |
+|============================================
+
+* Communication client-serveur
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Installation de l’outil Android Studio |Début décembre| x |
+|Communication wifi Raspberry - Raspberry |Début décembre | x |
+|Communication wifi Android -Android |Début janvier | x |
+|Plan de test | Fin décembre | x |
+|============================================
+
+* Raspberry Pi
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Installation et utilisation du logiciel 3D | Fin décembre | x |
+|Implémentation des actionneurs avec un driver | Fin décembre/début janvier | x |
+|Plan de test | fin décembre | x |
+|============================================
+
+* Classification par Adaboost
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Vectorisation | Janvier| x |
+|Recherche classifieur optimal | Janvier/février| x |
+|============================================
+
+* Interface utilisateur graphique Android
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Installation de l’outil Android Studio | Début décembre| x |
+|TP Android | Courant décembre | x |
+|Squelette d’application | Janvier | x |
+|============================================
+
+* Test et intégration
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Integration de l'application Android et la MagicBox | | A faire lorsque la box sera créée |
+|Plan de test | fin décembre/janvier | x |
+|============================================
+
+* Module SES
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Étude qualitative du lien avec la lecture | Pan 1 | x |
+|Focus group: faire réagir notre public cible à une maquette de notre projet | | | Idée de l'organisation connue. Reste l'avancement des modules pour le réaliser.
+
+|============================================
+
+==== Tâches / PAN3 18/03/19
+
+===== Générales
+
+* Matériel de démonstration:
+
+[cols=",^,^,,",options="header",]
+|=====================================================
+|Tâche |Qui |Quand |Fait |Remarques
+|Présentation | Ensemble | mars | x |
+|Architecture (schéma et documentation) | Ensemble | mars | x |
+|Modules |  |  | |
+|Répartition |  | | |
+
+|=====================================================
+
+===== Modules
+
+* Base de données
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Ajout des nouvelles ambiances  | Fin février| x |
+|Mise en place d'un serveur en ligne avec capacité de stockage| début mars | x |
+|Utilisation du classifieur par le serveur| mars | x |
+|Communication du serveur avec Android | mars | x |
+|============================================
+
+* Communication client-serveur
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Communication wifi Raspberry - Android |Février | x |Envoi de musique en streaming
+|Plan de test | février | x |
+|Communication entre le serveur et l'application par sockets | mars | x |
+|============================================
+
+* Raspberry Pi
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Impression du boîte 3D pour la Magic Box |Février | x |
+|Implémentation du système d'odeurs | mars | x |
+|Mise en place de hauts parleurs commandés en bluetooth | mars | x |
+
+|============================================
+
+* Classification par Adaboost
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Test de méthodes de classification |Début mars | x |
+|Communication avec le serveur | mars | x |
+|Amélioration de l'apprentissage du classifieur | mars | en cours |
+
+|============================================
+
+* Interface utilisateur graphique Android
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Liaison de différentes parties de l'Interface|Fin février | |
+|============================================
+
+* Test et intégration
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Plan de test | Courant Janvier | x |
+|Automatisation des tests | mars | x |
+|Réalisation des tests | mars/avril | en cours |
+
+|============================================
+
+* Module SES
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Mise en place du focus group | | en cours | 
+|============================================
+
+==== Tâches / PAN4 20/05/19
+
+====== Générales
+
+* poster pour le stand
+* présentation 4 slides
+* rapport: avancement, rapports de test
+
+===== Modules
+
+* Base de données
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Plan de test | | |
+|============================================
+
+* Communication client-serveur
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Transfert de musique et données de commmande pour les actionneurs | Fin avril| |
+|============================================
+
+* Raspberry Pi
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Impression du boîte 3D pour la Magic Box | | |
+|Implémentation du système d'odeurs | | |
+|============================================
+
+* Classification par Adaboost
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Application d'Adaboost | | |
+|============================================
+
+* Interface utilisateur graphique Android
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Application complète fonctionnel | | |
+|============================================
+
+* Test et intégration
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Test du projet en différentes situations |Début avril | |
+|============================================
+
+* Module SES
+
+[cols=",^,^,",options="header",]
+|============================================
+|Tâche |Quand |Fait |Remarques
+|Plan de test | | |
+|============================================

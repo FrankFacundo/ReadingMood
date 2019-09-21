@@ -1,0 +1,4 @@
+=== Interface utilisateur graphique
+
+Voici notre StroyBoard :
+image::../images/IHMpictures/StoryBoard.png[]

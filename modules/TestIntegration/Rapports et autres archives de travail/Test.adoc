@@ -1,0 +1,69 @@
+=== Tests à effectuer (réalisables automatiquement)
+
+
+== Module Android
+
+* Le téléchargement se fait-il correctement ? En temps raisonnable ? +
+Fonction : *public long downloadTimeTest(User user, LivreLibrary bookToDownload)* +
+Chemin : *"./src/JavaTest/src/Tests.java"*
+* Est-il possible de diffuser des sons sans box ? (grâce aux haut-parleurs du téléphone) +
+Fonction : *public boolean isDisplayedWithoutBox(User user)* +
+Chemin : *"./src/JavaTest/src/Tests.java"*
+* Est-il possible d'enregistrer l'avancement d'une lecture ? (le mode "Reprendre ma lecture") +
+Fonction : *public boolean isSavedCurrentBook(User user)* +
+Chemin : *"./src/JavaTest/src/Tests.java"*
+* Le mode manuel fonctionne-t-il bien ? Est-il enregistré après fermeture de l'application ? +
+Fonction : *public boolean isSavedManualMode(User user)* +
+Chemin : *"./src/JavaTest/src/Tests.java"*
+* L'information donnée à la Raspberry Pi correspond-elle à celle donnée par la classification ?
+
+* Peut-on lire un livre et savoir sur quelle page l'utilisateur se trouve ?
+
+== Module Raspberry pi
+
+* La connexion à l'application se fait-elle correctement ? +
+Fonction : *def isGoodConnection(user):* +
+Chemin : *./src/PythonTest/test.py*
+* Est-ce que les sons et les odeurs diffusées correpondent aux messages envoyés depuis l'application ? +
+Fonction : *def isWellDisplayed(user) :* +
+Chemin : *./src/PythonTest/test.py*
+
+
+== Module Classification
+
+* Apprentissage : Quel temps faut il mettre pour avoir un apprentissage ? +
+Fonction : *def testTrainingTimeClassifior(user) :* +
+Chemin :  *./src/PythonTest/test.py*
+* Apprentissage : Quel pourcentage de réussite l'apprentissage a-t-il ? +
+Fonction : *def testAccuracyTimeClassifior(user) :* +
+Chemin : *./src/PythonTest/test.py*
+* Apprentissage : Quel temps faut il pour associer une ambiance à un texte ? +
+Fonction : *def testTimeClassifior(user) :* +
+Chemin : *./src/PythonTest/test.py*
+* L'envoie d'un texte à la classification renvoie-t-elle une ambiance ? +
+Fonction : *def testReturnAmbianceClassifior(user) :* +
+Chemin : *./src/PythonTest/test.py*
+* L'envoie de données se fait elle de manière rapide ?
+
+
+
+== Module Communication Client Serveur
+
+* La connexion entre l'application et le serveur lors du téléchargement se fait-elle correctement (et rapidement) ?
+
+
+
+== Base de Données
+
+* Le format des livres est-il respecté ? +
+Fonction : *def isRespectedFormat(user) :* +
+Chemin : *./src/PythonTest/test.py*
+* La transition entre ePub et .txt se fait-elle bien (avec le module classification) ? +
+Fonction : *def tranistionTxtToEpub(user) :* +
+Chemin : *./src/PythonTest/test.py*
+* Les requêtes envoyées depuis l'application jusqu'à la base de données locale sont elles fait correctement ?
+* L'établissement de la base de données des ambiances sonores est-elle faite ?
+* A-t-on une association d'un texte à une ambiance sonore et/ou olfactive ? +
+Fonction : *def isAssociated(user) :* +
+Chemin : *./src/PythonTest/test.py*
+* La base de données se convertit-elle bien à l'application Android ?
